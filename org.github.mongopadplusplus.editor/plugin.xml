@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension
+         point="org.eclipse.core.runtime.applications"
+         id="MongoPadPPEditorAdvisorApplication">
+      <!-- @generated mongopadplusplus -->
+      <application>
+         <run class="org.github.mongopadplusplus.presentation.MongoPadPPEditorAdvisor$Application"/>
+      </application>
+   </extension>
+
+   <extension point="org.eclipse.ui.perspectives">
+      <!-- @generated mongopadplusplus -->
+      <perspective
+            name="%_UI_Perspective_label"
+            class="org.github.mongopadplusplus.presentation.MongoPadPPEditorAdvisor$Perspective"
+            id="org.github.mongopadplusplus.presentation.MongoPadPPEditorAdvisorPerspective">
+      </perspective>
+   </extension>
+
+   <extension point="org.eclipse.ui.commands">
+      <!-- @generated mongopadplusplus -->
+      <command
+            name="%_UI_Menu_OpenURI_label"
+            description="%_UI_Menu_OpenURI_description"
+            categoryId="org.eclipse.ui.category.file"
+            id="org.github.mongopadplusplus.presentation.MongoPadPPEditorAdvisorOpenURICommand"/>
+      <command
+            name="%_UI_Menu_Open_label"
+            description="%_UI_Menu_Open_description"
+            categoryId="org.eclipse.ui.category.file"
+            id="org.github.mongopadplusplus.presentation.MongoPadPPEditorAdvisorOpenCommand"/>
+   </extension>
+
+   <extension point="org.eclipse.ui.bindings">
+      <!-- @generated mongopadplusplus -->
+      <key
+            commandId="org.github.mongopadplusplus.presentation.MongoPadPPEditorAdvisorOpenURICommand"
+            sequence="M1+U"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"/>
+      <key
+            commandId="org.github.mongopadplusplus.presentation.MongoPadPPEditorAdvisorOpenCommand"
+            sequence="M1+O"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"/>
+   </extension>
+
+   <extension point="org.eclipse.ui.actionSets">
+      <!-- @generated mongopadplusplus -->
+      <actionSet
+            label="%_UI_MongoPadPPEditorAdvisor_ActionSet_label"
+            visible="true"
+            id="MongoPadPPEditorAdvisorActionSet">
+         <action
+               label="%_UI_Menu_About_label"
+               class="org.github.mongopadplusplus.presentation.MongoPadPPEditorAdvisor$AboutAction"
+               menubarPath="help/additions"
+               id="org.github.mongopadplusplus.presentation.MongoPadPPEditorAdvisorAboutAction"/>
+         <action
+               label="%_UI_Menu_OpenURI_label"
+               definitionId="org.github.mongopadplusplus.presentation.MongoPadPPEditorAdvisorOpenURICommand"
+               class="org.github.mongopadplusplus.presentation.MongoPadPPEditorAdvisor$OpenURIAction"
+               menubarPath="file/additions"
+               id="org.github.mongopadplusplus.presentation.MongoPadPPEditorAdvisorOpenURIAction"/>
+         <action
+               label="%_UI_Menu_Open_label"
+               definitionId="org.github.mongopadplusplus.presentation.MongoPadPPEditorAdvisorOpenCommand"
+               class="org.github.mongopadplusplus.presentation.MongoPadPPEditorAdvisor$OpenAction"
+               menubarPath="file/additions"
+               id="org.github.mongopadplusplus.presentation.MongoPadPPEditorAdvisorOpenAction"/>
+      </actionSet>
+   </extension>
+
+   <extension point="org.eclipse.ui.actionSets">
+      <!-- @generated mongopadplusplus -->
+      <actionSet
+            label="%_UI_MongoPadPPModelWizard_ActionSet_label"
+            visible="true"
+            id="org.github.mongopadplusplus.presentation.MongoPadPPActionBarContributorActionSet">
+         <action
+               label="%_UI_MongoPadPPModelWizard_label"
+               class="org.github.mongopadplusplus.presentation.MongoPadPPActionBarContributor$NewAction"
+               menubarPath="file/new/additions"
+               id="org.github.mongopadplusplus.presentation.MongoPadPPActionBarContributorNewAction"/>
+      </actionSet>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated mongopadplusplus -->
+      <editor
+            id="org.github.mongopadplusplus.presentation.MongoPadPPEditorID"
+            name="%_UI_MongoPadPPEditor_label"
+            icon="icons/full/obj16/MongoPadPPModelFile.gif"
+            extensions="mongopadpp"
+            class="org.github.mongopadplusplus.presentation.MongoPadPPEditor"
+            contributorClass="org.github.mongopadplusplus.presentation.MongoPadPPActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

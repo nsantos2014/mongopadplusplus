@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated mongopadplusplus -->
+      <package
+            uri="https://github.com/nsantos2014/mongopadplusplus"
+            class="org.github.mongopadplusplus.MongoPadPPPackage"
+            genModel="model/mongopadplusplus.genmodel"/>
+   </extension>
+
+</plugin>

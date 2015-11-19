@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_3AZjEI8GEeWOA7tnHoo3NQ" selectedViews="_3VnlII8GEeWOA7tnHoo3NQ _3VzyYI8GEeWOA7tnHoo3NQ _3V1AgI8GEeWOA7tnHoo3NQ _3V7HII8GEeWOA7tnHoo3NQ" version="10.0.0.201505222000">
   <semanticResources>mongopadplusplus.ecore</semanticResources>
+  <semanticResources>mongopadplusplus.genmodel</semanticResources>
+  <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
   <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_3VnlII8GEeWOA7tnHoo3NQ">
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_6W_rcI8GEeWOA7tnHoo3NQ" name=" class diagram">
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_6W_rcY8GEeWOA7tnHoo3NQ" source="DANNOTATION_CUSTOMIZATION_KEY">
@@ -53,7 +55,7 @@
               <styles xmi:type="notation:FilteringStyle" xmi:id="_aN4kgo8HEeWOA7tnHoo3NQ"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_aNx20Y8HEeWOA7tnHoo3NQ" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aNx20o8HEeWOA7tnHoo3NQ" x="600" y="276" width="183" height="100"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aNx20o8HEeWOA7tnHoo3NQ" x="600" y="228" width="183" height="100"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_oO5oMI8HEeWOA7tnHoo3NQ" type="2003" element="_oO0vsI8HEeWOA7tnHoo3NQ">
             <children xmi:type="notation:Node" xmi:id="_oO5oM48HEeWOA7tnHoo3NQ" type="5007"/>
@@ -90,7 +92,7 @@
             </children>
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_9D_nwI8HEeWOA7tnHoo3NQ" routing="Rectilinear"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_9D_nwY8HEeWOA7tnHoo3NQ" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9D_nwo8HEeWOA7tnHoo3NQ" points="[0, 0, -410, -144]$[434, 0, 24, -144]$[434, 216, 24, 72]"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9D_nwo8HEeWOA7tnHoo3NQ" points="[63, 0, -347, -96]$[464, 0, 54, -96]$[464, 72, 54, -24]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9ECrEI8HEeWOA7tnHoo3NQ" id="(0.6519337016574586,0.3673469387755102)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9ECrEY8HEeWOA7tnHoo3NQ" id="(0.19889502762430938,0.0)"/>
           </edges>
@@ -106,7 +108,7 @@
             </children>
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_GTnZAY8IEeWOA7tnHoo3NQ" routing="Rectilinear"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_GTnZAo8IEeWOA7tnHoo3NQ" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GTnZA48IEeWOA7tnHoo3NQ" points="[104, -3, -346, 95]$[247, -3, -203, 95]$[247, -87, -203, 11]$[391, -87, -59, 11]"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GTnZA48IEeWOA7tnHoo3NQ" points="[80, -3, -370, 143]$[481, -3, 31, 143]$[481, -121, 31, 25]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GTp1QI8IEeWOA7tnHoo3NQ" id="(0.5595764272559852,0.7700000000000001)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GTp1QY8IEeWOA7tnHoo3NQ" id="(0.3259668508287293,0.5)"/>
           </edges>
