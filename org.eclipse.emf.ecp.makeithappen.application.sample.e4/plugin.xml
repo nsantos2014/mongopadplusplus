@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="MakeItHappen Sample e4 Product"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="appName"
+               value="MakeItHappen Sample e4 Product">
+         </property>
+         <property
+               name="windowImages"
+               value="icons/bricks.png">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

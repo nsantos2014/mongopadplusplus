@@ -2,12 +2,13 @@
 <genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
     xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.github.mongopadplusplus/src/main/java" editDirectory="/org.github.mongopadplusplus.edit/src/main/java"
     editorDirectory="/org.github.mongopadplusplus.editor/src/main/java" modelPluginID="org.github.mongopadplusplus"
-    modelName="MongoPadPP" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    modelName="MongoPadPP" generateSchema="true" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
     reflectiveDelegation="true" testsDirectory="/org.github.mongopadplusplus.tests/src/main/java"
     importerID="org.eclipse.emf.importer.ecore" featureDelegation="Reflective" complianceLevel="8.0"
-    copyrightFields="false" operationReflection="true" runtimePlatform="RCP" importOrganizing="true">
+    copyrightFields="false" interfaceNamePattern="" operationReflection="true" runtimePlatform="RCP"
+    importOrganizing="true">
   <foreignModel>mongopadplusplus.ecore</foreignModel>
-  <genPackages prefix="MongoPadPP" basePackage="org.github" disposableProviderFactory="true"
+  <genPackages prefix="MongoPadPP" basePackage="org.github" resource="XML" disposableProviderFactory="true"
       ecorePackage="mongopadplusplus.ecore#/">
     <genClasses ecoreClass="mongopadplusplus.ecore#//Connection">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute mongopadplusplus.ecore#//Connection/name"/>

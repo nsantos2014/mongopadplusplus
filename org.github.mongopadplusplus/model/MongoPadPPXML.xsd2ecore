@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xsd2ecore:XSD2EcoreMappingRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsd2ecore="http://www.eclipse.org/emf/2002/XSD2Ecore" inputs="mongopadplusplus.ecore#/" outputs="MongoPadPPXML.xsd#/">
+  <nested inputs="mongopadplusplus.ecore#/" outputs="MongoPadPPXML.xsd#/">
+    <nested inputs="mongopadplusplus.ecore#//Connection" outputs="MongoPadPPXML.xsd#//Connection;XSDComplexTypeDefinition">
+      <nested inputs="mongopadplusplus.ecore#//Connection/name" outputs="MongoPadPPXML.xsd#//Connection;XSDComplexTypeDefinition/XSDAttributeUse"/>
+      <nested inputs="mongopadplusplus.ecore#//Connection/address" outputs="MongoPadPPXML.xsd#//Connection;XSDComplexTypeDefinition/XSDAttributeUse=1"/>
+      <nested inputs="mongopadplusplus.ecore#//Connection/port" outputs="MongoPadPPXML.xsd#//Connection;XSDComplexTypeDefinition/XSDAttributeUse=2"/>
+    </nested>
+    <nested inputs="mongopadplusplus.ecore#//Connection" outputs="MongoPadPPXML.xsd#//Connection;XSDElementDeclaration"/>
+    <nested inputs="mongopadplusplus.ecore#//Stage" outputs="MongoPadPPXML.xsd#//Stage;XSDComplexTypeDefinition=1">
+      <nested inputs="mongopadplusplus.ecore#//Stage/connections" outputs="MongoPadPPXML.xsd#//Stage;XSDComplexTypeDefinition=1/XSDParticle/XSDModelGroup/XSDParticle"/>
+      <nested inputs="mongopadplusplus.ecore#//Stage/currentstate" outputs="MongoPadPPXML.xsd#//Stage;XSDComplexTypeDefinition=1/XSDParticle/XSDModelGroup/XSDParticle=1"/>
+    </nested>
+    <nested inputs="mongopadplusplus.ecore#//Stage" outputs="MongoPadPPXML.xsd#//Stage;XSDElementDeclaration=1"/>
+    <nested inputs="mongopadplusplus.ecore#//CurrentState" outputs="MongoPadPPXML.xsd#//CurrentState;XSDComplexTypeDefinition=2">
+      <nested inputs="mongopadplusplus.ecore#//CurrentState/connected" outputs="MongoPadPPXML.xsd#//CurrentState;XSDComplexTypeDefinition=2/XSDAttributeUse"/>
+      <nested inputs="mongopadplusplus.ecore#//CurrentState/currentConnection" outputs="MongoPadPPXML.xsd#//CurrentState;XSDComplexTypeDefinition=2/XSDAttributeUse=1"/>
+    </nested>
+    <nested inputs="mongopadplusplus.ecore#//CurrentState" outputs="MongoPadPPXML.xsd#//CurrentState;XSDElementDeclaration=2"/>
+  </nested>
+</xsd2ecore:XSD2EcoreMappingRoot>

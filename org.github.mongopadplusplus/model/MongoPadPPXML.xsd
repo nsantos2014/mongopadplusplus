@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:mppp="https://github.com/nsantos2014/mongopadplusplus" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://github.com/nsantos2014/mongopadplusplus">
+  <xsd:complexType name="Connection">
+    <xsd:attribute default="Localhost" name="name" type="xsd:string"/>
+    <xsd:attribute default="localhost" name="address" type="xsd:string"/>
+    <xsd:attribute default="27017" name="port" type="xsd:int"/>
+  </xsd:complexType>
+  <xsd:element name="Connection" type="mppp:Connection"/>
+  <xsd:complexType name="Stage">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="connections" type="mppp:Connection"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="currentstate" type="mppp:CurrentState"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="Stage" type="mppp:Stage"/>
+  <xsd:complexType name="CurrentState">
+    <xsd:attribute name="connected" type="xsd:boolean" use="required"/>
+    <xsd:attribute name="currentConnection" type="xsd:string"/>
+  </xsd:complexType>
+  <xsd:element name="CurrentState" type="mppp:CurrentState"/>
+</xsd:schema>

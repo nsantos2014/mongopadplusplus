@@ -3,6 +3,12 @@
   <semanticResources>mongopadplusplus.ecore</semanticResources>
   <semanticResources>mongopadplusplus.genmodel</semanticResources>
   <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+  <semanticResources>MongoPadPPXML.xsd</semanticResources>
+  <semanticResources>bundleentry://747.fwk731395981/cache/www.w3.org/2001/XMLSchema-instance.xsd</semanticResources>
+  <semanticResources>bundleentry://747.fwk731395981/cache/www.w3.org/2001/XMLSchema.xsd</semanticResources>
+  <semanticResources>MongoPadPPXML.xsd2ecore</semanticResources>
+  <semanticResources>bundleentry://747.fwk731395981/cache/www.w3.org/2001/MagicXMLSchema.xsd</semanticResources>
+  <semanticResources>http://www.w3.org/2001/xml.xsd</semanticResources>
   <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_3VnlII8GEeWOA7tnHoo3NQ">
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_6W_rcI8GEeWOA7tnHoo3NQ" name=" class diagram">
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_6W_rcY8GEeWOA7tnHoo3NQ" source="DANNOTATION_CUSTOMIZATION_KEY">

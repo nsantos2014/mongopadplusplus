@@ -35,7 +35,7 @@ public interface Connection extends EObject {
 	 * @return the value of the '<em>Name</em>' attribute.
 	 * @see #setName(String)
 	 * @see org.github.mongopadplusplus.MongoPadPPPackage#getConnection_Name()
-	 * @model default="Localhost" id="true" required="true"
+	 * @model default="Localhost" id="true"
 	 * @generated
 	 */
 	String getName();
@@ -62,7 +62,7 @@ public interface Connection extends EObject {
 	 * @return the value of the '<em>Address</em>' attribute.
 	 * @see #setAddress(String)
 	 * @see org.github.mongopadplusplus.MongoPadPPPackage#getConnection_Address()
-	 * @model default="localhost" required="true"
+	 * @model default="localhost"
 	 * @generated
 	 */
 	String getAddress();
@@ -89,7 +89,7 @@ public interface Connection extends EObject {
 	 * @return the value of the '<em>Port</em>' attribute.
 	 * @see #setPort(int)
 	 * @see org.github.mongopadplusplus.MongoPadPPPackage#getConnection_Port()
-	 * @model default="27017" required="true"
+	 * @model default="27017"
 	 * @generated
 	 */
 	int getPort();

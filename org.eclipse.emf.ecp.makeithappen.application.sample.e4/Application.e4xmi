@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_GMrUQAD5EeSknd978uYCFA" elementId="org.eclipse.e4.ide.application" bindingContexts="_GMrUSQD5EeSknd978uYCFA">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_GMrUQQD5EeSknd978uYCFA" label="MakeItHappen ECP Sample e4 Application" iconURI="platform:/plugin/org.eclipse.emf.ecp.makeithappen.application.sample.e4/icons/bricks.png" width="800" height="600">
+    <children xsi:type="basic:Part" xmi:id="_GMr7ZQD5EeSknd978uYCFA" contributionURI="bundleclass://org.eclipse.emf.ecp.makeithappen.application.sample.e4/org.eclipse.emf.ecp.makeithappen.application.sample.e4.parts.ConnectionManager" label="Sample Part" iconURI="platform:/plugin/org.eclipse.emf.ecp.makeithappen.application.sample.e4/icons/bricks.png"/>
+  </children>
+  <bindingTables xmi:id="_GMrUTgD5EeSknd978uYCFA" bindingContext="_GMrUSQD5EeSknd978uYCFA">
+    <bindings xmi:id="_GMr7UAD5EeSknd978uYCFA" keySequence="M1+Q"/>
+    <bindings xmi:id="_GMr7UwD5EeSknd978uYCFA" keySequence="M1+O"/>
+    <bindings xmi:id="_GMr7VgD5EeSknd978uYCFA" keySequence="M1+S"/>
+    <bindings xmi:id="_GMr7WQD5EeSknd978uYCFA" keySequence="M1+A"/>
+  </bindingTables>
+  <rootContext xmi:id="_GMrUSQD5EeSknd978uYCFA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_GMrUSgD5EeSknd978uYCFA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_GMrUSwD5EeSknd978uYCFA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <addons xmi:id="_GMrUQgD5EeSknd978uYCFA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_GMrUQwD5EeSknd978uYCFA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_GMrURAD5EeSknd978uYCFA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_GMrURQD5EeSknd978uYCFA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_GMrURgD5EeSknd978uYCFA" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_GMrURwD5EeSknd978uYCFA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_GMrUSAD5EeSknd978uYCFA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
